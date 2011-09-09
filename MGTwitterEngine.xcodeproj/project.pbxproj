@@ -691,6 +691,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
 				DSTROOT = /tmp/TwitterEngine.dst;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -707,6 +708,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/../oauthconsumer ${SRCROOT}/../oauthconsumer/Categories ${SRCROOT}/../oauthconsumer/Crypto";
+				VALID_ARCHS = "armv7  i386 x86_64";
 			};
 			name = Debug;
 		};
@@ -714,6 +716,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
 				DSTROOT = /tmp/TwitterEngine.dst;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -727,6 +730,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/../oauthconsumer ${SRCROOT}/../oauthconsumer/Categories ${SRCROOT}/../oauthconsumer/Crypto";
+				VALID_ARCHS = "armv7  i386 x86_64";
 			};
 			name = Release;
 		};
