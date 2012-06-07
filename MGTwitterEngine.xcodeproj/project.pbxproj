@@ -27,7 +27,6 @@
 		4DC2E25313EF63210023ED0A /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F751A50E47DEC400858A1B /* NSData+Base64.m */; };
 		4DC2E25413EF63240023ED0A /* NSString+UUID.m in Sources */ = {isa = PBXBuildFile; fileRef = C9EF98A00D68AB970041A17E /* NSString+UUID.m */; };
 		4DC2E25813EF63670023ED0A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DC2E25513EF63670023ED0A /* Foundation.framework */; };
-		4DC2E25913EF63670023ED0A /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DC2E25613EF63670023ED0A /* libxml2.dylib */; };
 		4DC2E25A13EF63670023ED0A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DC2E25713EF63670023ED0A /* Security.framework */; };
 /* End PBXBuildFile section */
 
@@ -202,7 +201,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DC2E25813EF63670023ED0A /* Foundation.framework in Frameworks */,
-				4DC2E25913EF63670023ED0A /* libxml2.dylib in Frameworks */,
 				4DC2E25A13EF63670023ED0A /* Security.framework in Frameworks */,
 				4D80C03113EF701E00F10833 /* libxml2.dylib in Frameworks */,
 				4D80C03413EF702200F10833 /* Foundation.framework in Frameworks */,
