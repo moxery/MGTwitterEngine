@@ -137,13 +137,13 @@
 #pragma mark Constructors
 
 
-+ (MGTwitterEngine *)twitterEngineWithDelegate:(NSObject *)theDelegate
++ (MGTwitterEngine *)twitterEngineWithDelegate:(NSObject<MGTwitterEngineDelegate> *)theDelegate
 {
     return [[[self alloc] initWithDelegate:theDelegate] autorelease];
 }
 
 
-- (MGTwitterEngine *)initWithDelegate:(NSObject *)newDelegate
+- (MGTwitterEngine *)initWithDelegate:(NSObject<MGTwitterEngineDelegate> *)newDelegate
 {
     if ((self = [super init])) {
         _delegate = newDelegate; // deliberately weak reference

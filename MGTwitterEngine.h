@@ -45,8 +45,8 @@
 #pragma mark Class management
 
 // Constructors
-+ (MGTwitterEngine *)twitterEngineWithDelegate:(NSObject *)delegate;
-- (MGTwitterEngine *)initWithDelegate:(NSObject *)delegate;
++ (MGTwitterEngine *)twitterEngineWithDelegate:(NSObject<MGTwitterEngineDelegate> *)delegate;
+- (MGTwitterEngine *)initWithDelegate:(NSObject<MGTwitterEngineDelegate> *)delegate;
 
 // Configuration and Accessors
 + (NSString *)version; // returns the version of MGTwitterEngine

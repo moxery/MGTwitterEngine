@@ -21,10 +21,10 @@
     NSString *lastOpenedElement;
 }
 
-+ (id)parserWithXML:(NSData *)theXML delegate:(NSObject *)theDelegate 
++ (id)parserWithXML:(NSData *)theXML delegate:(NSObject<MGTwitterParserDelegate> *)theDelegate
 connectionIdentifier:(NSString *)identifier requestType:(MGTwitterRequestType)reqType 
        responseType:(MGTwitterResponseType)respType;
-- (id)initWithXML:(NSData *)theXML delegate:(NSObject *)theDelegate 
+- (id)initWithXML:(NSData *)theXML delegate:(NSObject<MGTwitterParserDelegate> *)theDelegate 
 connectionIdentifier:(NSString *)identifier requestType:(MGTwitterRequestType)reqType 
      responseType:(MGTwitterResponseType)respType;
 
