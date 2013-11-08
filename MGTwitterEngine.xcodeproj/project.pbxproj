@@ -707,6 +707,7 @@
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/../oauthconsumer ${SRCROOT}/../oauthconsumer/Categories ${SRCROOT}/../oauthconsumer/Crypto";
 				VALID_ARCHS = "armv7  i386 x86_64 arm64 armv7s";
 			};
@@ -728,6 +729,7 @@
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/../oauthconsumer ${SRCROOT}/../oauthconsumer/Categories ${SRCROOT}/../oauthconsumer/Crypto";
 				VALID_ARCHS = "armv7  i386 x86_64 arm64 armv7s";
 			};
